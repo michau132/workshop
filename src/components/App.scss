@@ -1,0 +1,16 @@
+
+.iconClose {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 20px;
+}
+
+.drawerOpen, 
+.drawerOpen.MuiPaper-root {
+  width: calc(100% - 300px);
+  margin-left: 300px;
+}
+.mainContent {
+  padding: 20px 40px;
+  max-width: calc(100% - 380px);
+}

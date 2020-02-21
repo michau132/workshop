@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> component should create snapshot 1`] = `
+<div
+  className="app"
+>
+  <AppService>
+    <WithStyles(WithStyles(ForwardRef(AppBar)))
+      className="drawerOpen"
+      position="static"
+    >
+      <WithStyles(ForwardRef(Toolbar))>
+        <WithStyles(ForwardRef(IconButton))
+          aria-label="menu"
+          color="inherit"
+          edge="start"
+          onClick={[Function]}
+        >
+          <MenuRoundedIcon />
+        </WithStyles(ForwardRef(IconButton))>
+        <WithStyles(ForwardRef(Typography))
+          variant="h6"
+        />
+      </WithStyles(ForwardRef(Toolbar))>
+    </WithStyles(WithStyles(ForwardRef(AppBar)))>
+    <WithStyles(WithStyles(ForwardRef(Drawer)))
+      anchor="left"
+      open={true}
+      variant="persistent"
+    >
+      <div
+        className="iconClose"
+      >
+        <WithStyles(ForwardRef(IconButton))
+          data-test="icon-button"
+          onClick={[Function]}
+        >
+          <ChevronLeftIcon />
+        </WithStyles(ForwardRef(IconButton))>
+      </div>
+      <WithStyles(ForwardRef(Divider)) />
+      <WithStyles(ForwardRef(List))>
+        <Link
+          key="0"
+          to="/"
+        >
+          <WithStyles(ForwardRef(ListItem))
+            button={true}
+          >
+            <WithStyles(ForwardRef(ListItemIcon))>
+              <InboxOutlinedIcon />
+            </WithStyles(ForwardRef(ListItemIcon))>
+            <WithStyles(ForwardRef(ListItemText))>
+              Workshop React
+            </WithStyles(ForwardRef(ListItemText))>
+          </WithStyles(ForwardRef(ListItem))>
+        </Link>
+        <Link
+          key="1"
+          to="/users"
+        >
+          <WithStyles(ForwardRef(ListItem))
+            button={true}
+          >
+            <WithStyles(ForwardRef(ListItemIcon))>
+              <InboxOutlinedIcon />
+            </WithStyles(ForwardRef(ListItemIcon))>
+            <WithStyles(ForwardRef(ListItemText))>
+              User list
+            </WithStyles(ForwardRef(ListItemText))>
+          </WithStyles(ForwardRef(ListItem))>
+        </Link>
+      </WithStyles(ForwardRef(List))>
+    </WithStyles(WithStyles(ForwardRef(Drawer)))>
+    <div
+      className="drawerOpen mainContent"
+    >
+      <Switch>
+        <Route
+          component={[Function]}
+          exact={true}
+          key="0"
+          path="/"
+        />
+        <Route
+          component={[Function]}
+          exact={true}
+          key="1"
+          path="/users"
+        />
+        <Route
+          component={[Function]}
+          exact={true}
+          key="2"
+          path="/user/:id"
+        />
+      </Switch>
+    </div>
+  </AppService>
+</div>
+`;
